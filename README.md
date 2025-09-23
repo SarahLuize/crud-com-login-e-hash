@@ -1,4 +1,4 @@
-#Site CRUD com login e hash
+# Site CRUD com login e hash
 
 Projeto de site CRUD com login e hash de senha feito em PHP. Sistema simples para fins de aprendizado e teste, sem garantias de segurança para uso em ambientes reais.
 
