@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(185, 245, 157);
+    margin: 100px; /* Espaço externo */
+    padding: 100px; /* Espaço interno */
+    font-family: sans-serif;
+}
+
+.retangulo { /* container principal */
+    width: 900px;
+    min-height: 400px; /* Altura mínima */
+    background-color: rgb(198, 255, 196);
+    border-radius: 15px; /* Cantos arredondados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+}
+
+a { /* Botões */
+    text-decoration: none; /* Remove sublinhad */
+    background-color: rgb(86, 214, 247); /* Cor do fundo */
+    padding: 7px;
+    border-radius: 10px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: inline-block; /* Permite padding e margem */
+    color: rgb(47, 64, 151); /* Cor do texto */
+}
+
+.centralizar{ /* Centralizar texto */
+    text-align: center; /* Alinha o texto ao centro do elemento */
+}
+
+.mensagem{ /* Centralizar mensagens */
+    margin-block: 150px 1px; /* Centralizar no meio*/
+}
+
+.centralizar-tabela { /* Centralizar tabelas e remover espaçamento interno entre células */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    border-collapse: collapse; /* Remove espaçamento das células */
+}
+
+form { /* Customização do formulário */
+  width: 400px;
+  margin: 0 auto; /* Centraliza o formulário na página */
+  padding: 20px;
+  background-color: #c6ffc4;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input[type="submit"] { /* Customização botão submit */
+    display: inline-block;
+    width: 100%; /* Botão ocupa toda a largura do formulário */
+    margin: 10px auto 5px auto; /* Espaçamento vertical e centralização */
+    padding: 5px 10px; /* Espaçamento */
+    background-color: rgba(86, 215, 247, 0.747); /* Fundo azul */
+    border-radius: 10px; /* Bordas arredondadas */
+    color: rgb(38, 52, 122);
+    border-color: transparent; /* Borda transparente */
+}
+
+form input { /* Customização dos campos de dados */
+    background-color: rgba(86, 215, 247, 0.199);
+    border-color: #c6ffc4;
+}
+
+form table { /* Customização da tabela */
+    margin: 0 auto; /* Centraliza a tabela dentro do formulário */
+    width: 100%; /* Tabela ocupa toda a largura do formulário */
+    border-collapse: collapse; /* Remove espaçamento entre células */
+}
+
+form td { /* Células da tabela do formulário */
+    padding: 8px 10px; /* Espaçamento entre as células */
+    vertical-align: middle;
+}
+
+form td:last-child { /* Última célula de cada linha da tabela */
+  padding-right: 100px; /* Espaçamento extra à direita para ficar centralizado */
+  text-align: center;
+}
+
+table {
+    border: 0;
+}
+
+.width25{
+    width: 25%;
+}
+
+.width80{
+    width: 80%;;
+}
+
+.detalhe{
+    background-color: #98eb73;
+}
